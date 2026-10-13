@@ -11,7 +11,7 @@ license: MIT
 metadata:
   owner: Saketh Balijepalli
   git_url: https://github.com/sakethbalijepalli/level-up-dsa
-  version: "1.2.0"
+  version: "1.2.1"
 ---
 
 # Level Up DSA
@@ -36,6 +36,8 @@ Before solving, extract: platform, language, exact stub or I/O format, provided 
 - **Pattern Explanation**: pattern, recognition signals, invariant, small example. No full platform solution unless asked.
 
 The user's latest explicit scope or format instruction always overrides the default contract.
+
+**Code presentation rule (all modes):** if any code snippet in the response needs imports or setup beyond the platform stub (for example, Java code using `Arrays` or `HashMap` needs `import java.util.*;`), state the required imports once, before the first code block, so the note covers every snippet in the response. Never attach the import note to only the last snippet.
 
 ## Full Coach Contract
 

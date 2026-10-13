@@ -3,8 +3,9 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![Skill: AI Agent](https://img.shields.io/badge/Skill-AI%20Agent-orange.svg)](SKILL.md)
 [![skills.sh](https://skills.sh/b/sakethbalijepalli/level-up-dsa)](https://skills.sh/sakethbalijepalli/level-up-dsa)
+[![Agensi: Listed](https://img.shields.io/badge/Agensi-listed-green.svg)](https://www.agensi.io)
 
-**Level Up DSA** (v1.2.0) is a portable AI agent skill for solving LeetCode, HackerRank, and Online Assessment (OA) coding interview problems with optimized multi-language solutions, platform-specific code (function stubs or custom I/O), and step-by-step whiteboard explanations.
+**Level Up DSA** (v1.2.1) is a portable AI agent skill for solving LeetCode, HackerRank, and Online Assessment (OA) coding interview problems with optimized multi-language solutions, platform-specific code (function stubs or custom I/O), and step-by-step whiteboard explanations.
 
 ```bash
 npx skills add sakethbalijepalli/level-up-dsa

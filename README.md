@@ -2,8 +2,15 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![Skill: AI Agent](https://img.shields.io/badge/Skill-AI%20Agent-orange.svg)](SKILL.md)
+[![skills.sh](https://skills.sh/b/sakethbalijepalli/level-up-dsa)](https://skills.sh/sakethbalijepalli/level-up-dsa)
 
 **Level Up DSA** (v1.2.0) is a portable AI agent skill for solving LeetCode, HackerRank, and Online Assessment (OA) coding interview problems with optimized multi-language solutions, platform-specific code (function stubs or custom I/O), and step-by-step whiteboard explanations.
+
+```bash
+npx skills add sakethbalijepalli/level-up-dsa
+```
+
+One command installs it for Claude Code, Codex, Antigravity, Cline and other agents. See [Installation](#quick-start--installation) for manual alternatives.
 
 ---
 
@@ -44,21 +51,23 @@ The skill first extracts the platform, language, stub or I/O format, examples, a
 
 You can add **Level Up DSA** to your favorite AI assistant or IDE:
 
-### Easiest: one command
+### Recommended: one command
 Installing is easy. Run this single command and the skill is added to your agent:
 ```bash
 npx skills add sakethbalijepalli/level-up-dsa
 ```
 
-Or install manually:
+### Manual alternatives
 
-### 1. Antigravity / Gemini CLI / Codex
+If you'd rather not use the CLI:
+
+#### 1. Antigravity / Gemini CLI / Codex
 Place the repository files inside your workspace customizations:
 ```bash
 git clone https://github.com/sakethbalijepalli/level-up-dsa.git .agents/skills/level-up-dsa
 ```
 
-### 2. Claude Desktop / ChatGPT / Custom GPTs
+#### 2. Claude Desktop / ChatGPT / Custom GPTs
 Copy the complete contents of [`SKILL.md`](SKILL.md) into your system prompt or custom instructions. For the full coaching format, include the reference files it points to (especially the quality checklist and explanation standards), or install the complete folder where your tool supports it.
 
 ---

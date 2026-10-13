@@ -44,6 +44,14 @@ The skill first extracts the platform, language, stub or I/O format, examples, a
 
 You can add **Level Up DSA** to your favorite AI assistant or IDE:
 
+### Easiest: one command
+Installing is easy. Run this single command and the skill is added to your agent:
+```bash
+npx skills add sakethbalijepalli/level-up-dsa
+```
+
+Or install manually:
+
 ### 1. Antigravity / Gemini CLI / Codex
 Place the repository files inside your workspace customizations:
 ```bash
